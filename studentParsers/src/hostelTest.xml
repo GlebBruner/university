@@ -1,0 +1,190 @@
+<?xml-stylesheet type="text/xsl" href="hostel.xsl" ?>
+<hos:hostel xmlns:hos="http://nure.ua/hostel">
+    <hos:floor id="2">
+        <hos:room id="221" state="norm">
+            <hos:student pid="1" studyForm="Day">
+                <hos:name>Gleb</hos:name>
+                <hos:surname>Bruner</hos:surname>
+                <hos:middlename>Vitalevich</hos:middlename>
+                <hos:phone>(068) 621-98-08</hos:phone>
+                <hos:email>hlib.bruner@nure.ua</hos:email>
+                <hos:dob>1996-10-17</hos:dob>
+                <hos:spec>KN</hos:spec>
+                <hos:level>4</hos:level>
+                <hos:grade>Bachelor</hos:grade>
+                <hos:payment>
+                    <hos:balance>356</hos:balance>
+                    <!--Optional:-->
+                    <hos:subsidy>
+                        <hos:price>50</hos:price>
+                        <hos:estimate>2018-10-18</hos:estimate>
+                    </hos:subsidy>
+                </hos:payment>
+                <hos:medical>
+                    <!--You have a CHOICE of the next 2 items at this level-->
+                    <hos:isExists>true</hos:isExists>
+                </hos:medical>
+            </hos:student>
+        </hos:room>
+        <hos:room id="222" state="good">
+            <hos:student pid="2" studyForm="Day">
+                <hos:name>Kladko</hos:name>
+                <hos:surname>Vlad</hos:surname>
+                <hos:middlename>Andreevich</hos:middlename>
+                <hos:phone>(067) 907-97-07</hos:phone>
+                <hos:email>kladko.vlad@nure.ua</hos:email>
+                <hos:dob>1996-09-30</hos:dob>
+                <hos:spec>PI</hos:spec>
+                <hos:level>4</hos:level>
+                <hos:grade>Bachelor</hos:grade>
+                <hos:payment>
+                    <hos:balance>900</hos:balance>
+                    <hos:subsidy>
+                        <hos:price>244</hos:price>
+                        <hos:estimate>2019-01-01</hos:estimate>
+                    </hos:subsidy>
+                </hos:payment>
+                <hos:medical>
+                    <hos:isExists>true</hos:isExists>
+                </hos:medical>
+            </hos:student>
+
+        </hos:room>
+    </hos:floor>
+
+    <hos:floor id="3">
+        <hos:room id="311" state="bad">
+            <hos:student pid="3" studyForm="Zaochnoe">
+                <hos:name>Yaroslav</hos:name>
+                <hos:surname>Grigorov</hos:surname>
+                <hos:middlename>Ivanovich</hos:middlename>
+                <hos:phone>(067) 670-01-08</hos:phone>
+                <hos:email>yarik.grigorov@nure.ua</hos:email>
+                <hos:dob>1997-09-01</hos:dob>
+                <hos:spec>KN</hos:spec>
+                <hos:level>4</hos:level>
+                <hos:grade>Bachelor</hos:grade>
+                <hos:payment>
+                    <hos:balance>-100</hos:balance>
+                </hos:payment>
+                <hos:medical>
+                    <hos:isExists>true</hos:isExists>
+                </hos:medical>
+            </hos:student>
+        </hos:room>
+        <hos:room id="312" state="good">
+            <hos:student pid="4" studyForm="Day">
+                <hos:name>Danylo</hos:name>
+                <hos:surname>Rosiychuk</hos:surname>
+                <hos:middlename>Ivanovich</hos:middlename>
+                <hos:phone>(067) 670-20-08</hos:phone>
+                <hos:email>danylo.ros@nure.ua</hos:email>
+                <hos:dob>1997-08-13</hos:dob>
+                <hos:spec>KN</hos:spec>
+                <hos:level>4</hos:level>
+                <hos:grade>Bachelor</hos:grade>
+                <hos:payment>
+                    <hos:balance>322</hos:balance>
+                </hos:payment>
+                <hos:medical>
+                    <hos:expirationDate>2019-10-10</hos:expirationDate>
+                </hos:medical>
+            </hos:student>
+        </hos:room>
+    </hos:floor>
+
+    <hos:floor id="4">
+        <hos:room id="411" state="norm">
+            <hos:student pid="3" studyForm="Zaochnoe">
+                <hos:name>Vlad</hos:name>
+                <hos:surname>Obrazkov</hos:surname>
+                <hos:middlename>Ivanovich</hos:middlename>
+                <hos:phone>(098) 621-08-07</hos:phone>
+                <hos:email>vlad.obrazkow@nure.ua</hos:email>
+                <hos:dob>1997-12-13</hos:dob>
+                <hos:spec>PI</hos:spec>
+                <hos:level>3</hos:level>
+                <hos:grade>Bachelor</hos:grade>
+                <hos:payment>
+                    <hos:balance>500</hos:balance>
+                    <hos:subsidy>
+                        <hos:price>80</hos:price>
+                        <hos:estimate>2018-01-01</hos:estimate>
+                    </hos:subsidy>
+                </hos:payment>
+                <hos:medical>
+                    <hos:isExists>true</hos:isExists>
+                </hos:medical>
+            </hos:student>
+        </hos:room>
+        <hos:room id="441" state="good">
+            <hos:student pid="3" studyForm="Zaochnoe">
+                <hos:name>Alexander</hos:name>
+                <hos:surname>Scherbakov</hos:surname>
+                <hos:middlename>Viktorovich</hos:middlename>
+                <hos:phone>(068) 521-78-15</hos:phone>
+                <hos:email>alexander.scherbakov@nure.ua</hos:email>
+                <hos:dob>1997-12-12</hos:dob>
+                <hos:spec>KN</hos:spec>
+                <hos:level>1</hos:level>
+                <hos:grade>Master</hos:grade>
+                <hos:payment>
+                    <hos:balance>-100</hos:balance>
+                    <hos:subsidy>
+                        <hos:price>25</hos:price>
+                        <hos:estimate>2019-01-01</hos:estimate>
+                    </hos:subsidy>
+                </hos:payment>
+                <hos:medical>
+                    <hos:isExists>true</hos:isExists>
+                </hos:medical>
+            </hos:student>
+        </hos:room>
+    </hos:floor>
+
+    <hos:floor id="5">
+        <hos:room id="521" state="bad">
+            <hos:student pid="3" studyForm="Zaochnoe">
+                <hos:name>Daria</hos:name>
+                <hos:surname>Hulko</hos:surname>
+                <hos:middlename>Igorivna</hos:middlename>
+                <hos:phone>(095) 535-35-34</hos:phone>
+                <hos:email>daria.hulko@nure.ua</hos:email>
+                <hos:dob>1997-07-12</hos:dob>
+                <hos:spec>KN</hos:spec>
+                <hos:level>1</hos:level>
+                <hos:grade>Bachelor</hos:grade>
+                <hos:payment>
+                    <hos:balance>100</hos:balance>
+                </hos:payment>
+                <hos:medical>
+                    <hos:isExists>false</hos:isExists>
+                </hos:medical>
+            </hos:student>
+        </hos:room>
+        <hos:room id="522" state="good">
+            <hos:student pid="3" studyForm="Zaochnoe">
+                <hos:name>Andrei</hos:name>
+                <hos:surname>Chegrinets</hos:surname>
+                <hos:middlename>Dmitrievich</hos:middlename>
+                <hos:phone>(069) 699-69-09</hos:phone>
+                <hos:email>andrei.chegr@nure.ua</hos:email>
+                <hos:dob>1997-03-08</hos:dob>
+                <hos:spec>KN</hos:spec>
+                <hos:level>3</hos:level>
+                <hos:grade>Bachelor</hos:grade>
+                <hos:payment>
+                    <hos:balance>-300</hos:balance>
+                    <hos:subsidy>
+                        <hos:price>100</hos:price>
+                        <hos:estimate>2017-05-01</hos:estimate>
+                    </hos:subsidy>
+                </hos:payment>
+                <hos:medical>
+                    <hos:expirationDate>2017-10-01</hos:expirationDate>
+                </hos:medical>
+            </hos:student>
+        </hos:room>
+    </hos:floor>
+
+</hos:hostel>
